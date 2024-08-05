@@ -17,6 +17,7 @@
  * ```
  */
 export function calculate(operator, firstNumber, secondNumber) {
+
   switch (operator) {
     case "+":
       return firstNumber + secondNumber;
